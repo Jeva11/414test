@@ -67,6 +67,7 @@ table {
 }
 
 #skipLink:focus {
+  position: absolute;
   top: 1em;
   left: 1em;
   display: block;
@@ -75,8 +76,9 @@ table {
   width: 25%;
   height: 1.5em;
   line-height: 1.3em;
+  background-color: #fff; 
+  z-index: 1000; 
 }
-
 a {
   color: #0a58ff;
 }
